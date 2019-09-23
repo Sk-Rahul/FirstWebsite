@@ -1,7 +1,7 @@
 const softkeyCallback = {
-    left: function() { alert('You click on SoftLeft') },
-    center: function() { alert('You click on Enter') },
-    right: function() { alert('You click on SoftRight') }
+    left: function() { console.log('You click on SoftLeft') },
+    center: function() { console.log('You click on Enter') },
+    right: function() { console.log('You click on SoftRight') }
 };
 function handleKeyDown(evt) {
     switch (evt.key) {
