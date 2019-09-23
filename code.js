@@ -23,3 +23,10 @@ function handleKeydown(e) {
   }
 }
 document.activeElement.addEventListener('keydown', handleKeydown);
+function nav (move) {
+  const currentIndex = document.activeElement.tabIndex;
+  const next = currentIndex + move;
+  const items = document.querySelectorAll('.items');
+  const targetElement = items[next];
+  targetElement.focus();
+}
