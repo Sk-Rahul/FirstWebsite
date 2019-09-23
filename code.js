@@ -13,8 +13,9 @@ function handleKeydown(e) {
           
       break;
     case 'ArrowRight':
+            alert("Right");
       nav(1);
-          alert("Right");
+        
       break;
     case 'ArrowLeft':
           alert("left");
