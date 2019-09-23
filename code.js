@@ -22,4 +22,4 @@ function handleKeydown(e) {
       break;
   }
 }
-document.addEventListener('keydown', handleKeyDown);
+document.activeElement.addEventListener('keydown', handleKeydown);
