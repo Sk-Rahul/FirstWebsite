@@ -1,12 +1,10 @@
 {
   "version": "1",
-  "name": "Slide Shape Alpha",
-  "launch_path": "index.html",
+  "name": "First Website",
+  "launch_path": "/FirstWebsite/index.html",
   "description": "For testing",
   "icons": {
-    "16": "icon/logo3.png",
-    "120": "icon/logo2.png",
-    "128": "icon/logo1.png"
+    
   },
   "developer": {
     "name": "rahul",
