@@ -1,6 +1,6 @@
 function Start(event)
 {
     x = event.which;
-    alert(x);
+    prompt(x);
 }
 document.addEventListener("keydown",Start);
