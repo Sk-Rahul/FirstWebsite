@@ -1,7 +1,8 @@
 const softkeyCallback = {
     left: function() { alert('You click on SoftLeft') },
     center: function() { alert('You click on Enter') },
-    right: function() { alert('You click on SoftRight') }
+    right: function() { alert('You click on SoftRight') },
+    ArrowRight: function(){alert('You click right')}
 };
 function handleKeyDown(evt) {
     switch (evt.key) {
@@ -19,6 +20,10 @@ function handleKeyDown(evt) {
             // Action case press center key
             softkeyCallback.center();
         break;
+
+        case 'ArrowRight':
+            softkeyCallback.ArrowRight();
+         break;
     }
 };
 
