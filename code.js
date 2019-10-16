@@ -3,10 +3,8 @@ document.addEventListener('keydown', handleKeyup);
 	function handleKeyup (e) {
 		switch(e.key) {
 			case 'ArrowUp':
-			case '2': /* num pad navigation */
-				app.keyCallback.dUp();
-				alert("ArrowUp");
-				break;
+			alert("ArrowUp");
+			break;
 			case 'ArrowDown':
 			case '8': /* num pad navigation */
 				app.keyCallback.dDown();
