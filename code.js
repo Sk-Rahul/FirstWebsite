@@ -3,6 +3,7 @@ document.addEventListener('keydown', handleKeyup);
 	function handleKeyup (e) {
 		switch(e.key) {
 			case 'ArrowUp':
+			keyCallback.dUp();
 			alert("ArrowUp");
 			break;
 			case 'ArrowDown':
@@ -20,3 +21,7 @@ document.addEventListener('keydown', handleKeyup);
 				alert("ArrowRight");
 				app.keyCallback.dRight();
 				break;
+	dUp()
+	{
+		alert("Hello");
+	}
